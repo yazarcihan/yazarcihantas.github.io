@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Cihan TAŞ — yazar, kitaplar, yazılar ve edebiyat dünyası.">
+<title>Cihan TAŞ | Yazar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0b0c;--card:#141416;--text:#f4f1eb;--muted:#aaa6a0;--accent:#c8a46b;--line:#29282a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(11,11,12,.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:"Cormorant Garamond";font-size:30px;font-weight:600;letter-spacing:.04em}
+.logo span{color:var(--accent)}
+.links{display:flex;gap:28px;font-size:14px;color:#d4d1cc}
+.links a:hover{color:var(--accent)}
+.hero{min-height:92vh;display:flex;align-items:center;position:relative;overflow:hidden;padding-top:72px}
+.hero:before{content:"";position:absolute;width:650px;height:650px;border-radius:50%;background:radial-gradient(circle,rgba(200,164,107,.13),transparent 65%);right:-220px;top:50px}
+.eyebrow{text-transform:uppercase;letter-spacing:.25em;font-size:12px;color:var(--accent);margin-bottom:20px}
+h1{font-family:"Cormorant Garamond";font-size:clamp(58px,9vw,110px);line-height:.86;font-weight:500;max-width:850px}
+.hero p{max-width:650px;color:var(--muted);font-size:18px;margin:28px 0}
+.btn{display:inline-block;padding:13px 22px;border:1px solid var(--accent);color:var(--text);font-size:13px;letter-spacing:.08em;text-transform:uppercase;transition:.25s}
+.btn:hover{background:var(--accent);color:#111}
+section{padding:105px 0;border-top:1px solid var(--line)}
+.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:42px;gap:30px}
+h2{font-family:"Cormorant Garamond";font-size:54px;font-weight:500}
+.section-head p{color:var(--muted);max-width:440px}
+.books{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.book{background:var(--card);border:1px solid var(--line);overflow:hidden}
+.cover{height:390px;background:linear-gradient(145deg,#252529,#0d0d0e);display:flex;align-items:end;padding:28px;position:relative}
+.cover:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,0,0,.7))}
+.cover-content{position:relative;z-index:1}
+.cover small{color:var(--accent);letter-spacing:.15em;text-transform:uppercase}
+.cover h3{font-family:"Cormorant Garamond";font-size:40px;line-height:.95;margin-top:10px}
+.book-info{padding:22px}
+.book-info p{color:var(--muted);font-size:14px;margin-bottom:18px}
+.about{display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:center}
+.quote{font-family:"Cormorant Garamond";font-size:38px;line-height:1.1;border-left:2px solid var(--accent);padding-left:25px}
+.about-text{color:var(--muted);font-size:16px}
+.about-text p+p{margin-top:18px}
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.post{padding:28px;background:var(--card);border:1px solid var(--line)}
+.post .date{font-size:11px;color:var(--accent);letter-spacing:.12em;text-transform:uppercase}
+.post h3{font-family:"Cormorant Garamond";font-size:28px;line-height:1.1;margin:15px 0}
+.post p{color:var(--muted);font-size:14px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.contact-info p{color:var(--muted);margin-top:15px}
+.contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+footer{padding:35px 0;color:#777;font-size:12px;border-top:1px solid var(--line);display:flex;justify-content:space-between}
+@media(max-width:800px){.links{display:none}.books,.posts,.about,.contact{grid-template-columns:1fr}.hero{min-height:80vh}.section-head{display:block}.section-head p{margin-top:15px}.about{gap:35px}h2{font-size:45px}.cover{height:430px}}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+<a class="logo" href="#">Cihan <span>TAŞ</span></a>
+<div class="links">
+<a href="#kitaplar">Kitaplar</a><a href="#hakkimda">Hakkımda</a><a href="#yazilar">Yazılar</a><a href="#iletisim">İletişim</a>
+</div></div></nav>
+
+<header class="hero"><div class="container">
+<div class="eyebrow">Yazar · Hikâyeler · Hayat</div>
+<h1>Bazı hikâyeler<br>okunmaz,<br><em>yaşanır.</em></h1>
+<p>Cihan TAŞ'ın kitaplarına, yazılarına ve edebiyat yolculuğuna hoş geldiniz.</p>
+<a class="btn" href="#kitaplar">Kitapları keşfet</a>
+</div></header>
+
+<section id="kitaplar"><div class="container">
+<div class="section-head"><h2>Kitaplarım</h2><p>Her kitap başka bir yolculuk. Gerçek ile hayal arasındaki çizgide başlayan hikâyeler.</p></div>
+<div class="books">
+<article class="book"><div class="cover"><div class="cover-content"><small>Roman</small><h3>Akıl Hastanesi<br>Başlangıç</h3></div></div><div class="book-info"><p>Hikâyelerin, insanların ve zihnin sınırlarında dolaşan bir roman.</p><a class="btn" href="#iletisim">Kitap hakkında</a></div></article>
+<article class="book"><div class="cover"><div class="cover-content"><small>Roman</small><h3>Roj-ber</h3></div></div><div class="book-info"><p>Yaşamın kıyısında doğan güneşin hikâyesi.</p><a class="btn" href="#iletisim">Kitap hakkında</a></div></article>
+<article class="book"><div class="cover"><div class="cover-content"><small>Yeni çalışma</small><h3>Benim<br>Günlüğüm</h3></div></div><div class="book-info"><p>Diyarbakır, Hakkâri ve İzmir'den izler taşıyan kişisel bir yolculuk.</p><a class="btn" href="#iletisim">Yakında</a></div></article>
+</div></div></section>
+
+<section id="hakkimda"><div class="container about">
+<div class="quote">“Bazen insan kendi aklından değil, kendi hikâyesinden kaçmak ister.”</div>
+<div class="about-text"><h2>Hakkımda</h2><p style="margin-top:20px">Ben Cihan TAŞ. Yazmak benim için yalnızca kelimeleri bir araya getirmek değil; yaşananları, hayal edilenleri ve insanın içinde sakladığı hikâyeleri görünür kılmak.</p><p>Romanlarımda aşkı, insan ilişkilerini, sırları, geçmişi ve hayatın insan üzerinde bıraktığı izleri anlatıyorum.</p><p>Bu site, kitaplarımın ve yazarlık yolculuğumun dijital adresi olarak tasarlandı.</p></div>
+</div></section>
+
+<section id="yazilar"><div class="container">
+<div class="section-head"><h2>Yazılar</h2><p>Kitapların arasına sığmayan cümleler.</p></div>
+<div class="posts">
+<article class="post"><div class="date">Yazarın Notu</div><h3>Bir hikâye nerede başlar?</h3><p>Bazen tek bir cümlede, bazen yıllarca saklanan bir hatırada...</p></article>
+<article class="post"><div class="date">Edebiyat</div><h3>Okumak ve kendini bulmak</h3><p>Her kitap, insanın kendisine açılan başka bir kapısıdır.</p></article>
+<article class="post"><div class="date">Günlük</div><h3>Şehirler ve hatıralar</h3><p>Diyarbakır, Hakkâri ve İzmir'den kalan izler.</p></article>
+</div></div></section>
+
+<section id="iletisim"><div class="container contact">
+<div><div class="eyebrow">İletişim</div><h2>Bir hikâyeniz mi var?</h2><div class="contact-info"><p>Kitaplar, etkinlikler, imza günleri ve iletişim için bana ulaşabilirsiniz.</p></div></div>
+<div><div class="contact-info"><p><strong>Sosyal medya</strong></p><div class="contact-links"><a class="btn" href="#" aria-label="Instagram">Instagram</a><a class="btn" href="#" aria-label="Facebook">Facebook</a><a class="btn" href="#" aria-label="X">X</a></div><p style="margin-top:30px">E-posta: <span style="color:var(--text)">iletisim@cihantas.com</span></p></div></div>
+</div></section>
+
+<footer><div class="container" style="display:flex;justify-content:space-between"><span>© 2026 Cihan TAŞ</span><span>Yazarın resmi web sitesi</span></div></footer>
+</body>
+</html>
